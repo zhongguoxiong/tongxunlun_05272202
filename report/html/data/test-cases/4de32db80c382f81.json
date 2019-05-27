@@ -1,0 +1,85 @@
+{
+  "uid" : "4de32db80c382f81",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]",
+  "fullName" : "test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]",
+  "historyId" : "b0d82c76fa357e2a34cd35cafd4154c0",
+  "time" : {
+    "start" : 1558982312610,
+    "stop" : 1558982333792,
+    "duration" : 21182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户信息",
+      "time" : {
+        "start" : 1558982312827,
+        "stop" : 1558982333792,
+        "duration" : 20965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Hasee-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12000-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testClass",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]"
+  }, {
+    "name" : "package",
+    "value" : "test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4de32db80c382f81.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "e609c5094d3fdf4ef5c592be77c40686" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "413e3529bf40340b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\n +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\n +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\n +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj",
+      "time" : {
+        "start" : 1558982275805,
+        "stop" : 1558982312601,
+        "duration" : 36796
+      }
+    } ]
+  },
+  "ca3ea3f3e3fa107dff84856144d465db" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea9a6d3d56781e37",
+      "status" : "failed",
+      "statusDetails" : "KeyError: 'status'",
+      "time" : {
+        "start" : 1558982333795,
+        "stop" : 1558982334617,
+        "duration" : 822
+      }
+    } ]
+  },
+  "b0d82c76fa357e2a34cd35cafd4154c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4de32db80c382f81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1558982312610,
+        "stop" : 1558982333792,
+        "duration" : 21182
+      }
+    } ]
+  },
+  "e38e5f8730873c6ac5a503cbf56ab5a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2a2d67e40cc1100",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'status'",
+      "time" : {
+        "start" : 1558982334619,
+        "stop" : 1558982335158,
+        "duration" : 539
+      }
+    } ]
+  }
+}

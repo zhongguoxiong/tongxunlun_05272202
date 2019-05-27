@@ -1,0 +1,54 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1558985403862" stop="1558985506301">
+  <name>test_add_user</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1558985403862" status="passed" stop="1558985440502">
+      <name>Test_Add_User.test_input_lianxiren_info[test_user_001---]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8196-MainThread"/>
+        <label name="host" value="Hasee-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1558985440503" status="passed" stop="1558985462160">
+      <name>Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8196-MainThread"/>
+        <label name="host" value="Hasee-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1558985462162" status="passed" stop="1558985484065">
+      <name>Test_Add_User.test_input_lianxiren_info[test_user_003--1 348-883-4010-1 348-883-4010]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8196-MainThread"/>
+        <label name="host" value="Hasee-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1558985484066" status="passed" stop="1558985506301">
+      <name>Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8196-MainThread"/>
+        <label name="host" value="Hasee-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

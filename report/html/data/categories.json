@@ -1,0 +1,61 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\n +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\n +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\n +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj",
+      "children" : [ {
+        "name" : "Test_Add_User.test_input_lianxiren_info[test_user_001---]",
+        "uid" : "413e3529bf40340b",
+        "parentUid" : "2c137c53da6c6d4e375af261f49c5752",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558982275805,
+          "stop" : 1558982312601,
+          "duration" : 36796
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c137c53da6c6d4e375af261f49c5752"
+    }, {
+      "name" : "KeyError: 'status'",
+      "children" : [ {
+        "name" : "Test_Add_User.test_input_lianxiren_info[test_user_003--1 348-883-4010-1 348-883-4010]",
+        "uid" : "ea9a6d3d56781e37",
+        "parentUid" : "54cf0d2a7dab3d069c7680d4fd9ce1c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558982333795,
+          "stop" : 1558982334617,
+          "duration" : 822
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54cf0d2a7dab3d069c7680d4fd9ce1c8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'status'",
+      "children" : [ {
+        "name" : "Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]",
+        "uid" : "d2a2d67e40cc1100",
+        "parentUid" : "38d58c5187fbbdfa2eabbaecdd3af6eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1558982334619,
+          "stop" : 1558982335158,
+          "duration" : 539
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38d58c5187fbbdfa2eabbaecdd3af6eb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

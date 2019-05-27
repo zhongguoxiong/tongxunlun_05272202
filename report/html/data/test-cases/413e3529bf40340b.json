@@ -1,0 +1,94 @@
+{
+  "uid" : "413e3529bf40340b",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_001---]",
+  "fullName" : "test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_001---]",
+  "historyId" : "e609c5094d3fdf4ef5c592be77c40686",
+  "time" : {
+    "start" : 1558982275805,
+    "stop" : 1558982312601,
+    "duration" : 36796
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\n +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\n +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\n +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj",
+  "statusTrace" : "self = <test_add_user.Test_Add_User object at 0x0000000004647390>, test_num = 'test_user_001', name = '', phone = '', expect = ''\n\n    @allure.step(title=\"输入用户信息\")\n    @pytest.mark.usefixtures(\"click_add_user_button\")\n    @pytest.mark.parametrize(\"test_num,name,phone,expect\",read_test_data())#[('test_user_001', '', '', ''), ('test_user_002', 'x', '', 'x'), ('test_user_003', '', '1 348-883-4010', '1 348-883-4010'), ('test_user_004', 'xx', '1 348-883-4010', 'xx')]\n    def test_input_lianxiren_info(self,test_num,name,phone,expect):\n        self.addUserPageObj.input_user_info(name,phone)\n        if test_num==\"test_user_001\":\n>        assert expect  in self.addUserPageObj.get_user_list()\nE        AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\nE         +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\nE         +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\nE         +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj\n\nscripts\\test_add_user.py:39: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\n +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\n +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\n +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj",
+    "statusTrace" : "self = <test_add_user.Test_Add_User object at 0x0000000004647390>, test_num = 'test_user_001', name = '', phone = '', expect = ''\n\n    @allure.step(title=\"输入用户信息\")\n    @pytest.mark.usefixtures(\"click_add_user_button\")\n    @pytest.mark.parametrize(\"test_num,name,phone,expect\",read_test_data())#[('test_user_001', '', '', ''), ('test_user_002', 'x', '', 'x'), ('test_user_003', '', '1 348-883-4010', '1 348-883-4010'), ('test_user_004', 'xx', '1 348-883-4010', 'xx')]\n    def test_input_lianxiren_info(self,test_num,name,phone,expect):\n        self.addUserPageObj.input_user_info(name,phone)\n        if test_num==\"test_user_001\":\n>        assert expect  in self.addUserPageObj.get_user_list()\nE        AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\nE         +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\nE         +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\nE         +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj\n\nscripts\\test_add_user.py:39: AssertionError",
+    "steps" : [ {
+      "name" : "输入用户信息",
+      "time" : {
+        "start" : 1558982292783,
+        "stop" : 1558982312459,
+        "duration" : 19676
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_add_user.Test_Add_User object at 0x0000000004647390>, test_num = 'test_user_001', name = '', phone = '', expect = ''\n\n    @allure.step(title=\"输入用户信息\")\n    @pytest.mark.usefixtures(\"click_add_user_button\")\n    @pytest.mark.parametrize(\"test_num,name,phone,expect\",read_test_data())#[('test_user_001', '', '', ''), ('test_user_002', 'x', '', 'x'), ('test_user_003', '', '1 348-883-4010', '1 348-883-4010'), ('test_user_004', 'xx', '1 348-883-4010', 'xx')]\n    def test_input_lianxiren_info(self,test_num,name,phone,expect):\n        self.addUserPageObj.input_user_info(name,phone)\n        if test_num==\"test_user_001\":\n>        assert expect  in self.addUserPageObj.get_user_list()\nE        AssertionError: assert '' in ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...]\nE         +  where ['拨号', '联系人', '收藏', '联系人生日会同步到日历。', '群组', '我', ...] = <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>>()\nE         +    where <bound method AddUserPage.get_user_list of <page.add_user_page.AddUserPage object at 0x0000000004635DD8>> = <page.add_user_page.AddUserPage object at 0x0000000004635DD8>.get_user_list\nE         +      where <page.add_user_page.AddUserPage object at 0x0000000004635DD8> = <test_add_user.Test_Add_User object at 0x0000000004647390>.addUserPageObj\n\nscripts\\test_add_user.py:39: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Hasee-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12000-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testClass",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Add_User.test_input_lianxiren_info[test_user_001---]"
+  }, {
+    "name" : "package",
+    "value" : "test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "413e3529bf40340b.json",
+  "parameterValues" : [ ]
+}

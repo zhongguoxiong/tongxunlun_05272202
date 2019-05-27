@@ -1,0 +1,41 @@
+[ {
+  "uid" : "d2a2d67e40cc1100",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]",
+  "time" : {
+    "start" : 1558982334619,
+    "stop" : 1558982335158,
+    "duration" : 539
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4de32db80c382f81",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]",
+  "time" : {
+    "start" : 1558982312610,
+    "stop" : 1558982333792,
+    "duration" : 21182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "413e3529bf40340b",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_001---]",
+  "time" : {
+    "start" : 1558982275805,
+    "stop" : 1558982312601,
+    "duration" : 36796
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea9a6d3d56781e37",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_003--1 348-883-4010-1 348-883-4010]",
+  "time" : {
+    "start" : 1558982333795,
+    "stop" : 1558982334617,
+    "duration" : 822
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

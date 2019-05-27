@@ -1,0 +1,66 @@
+{
+  "uid" : "d2a2d67e40cc1100",
+  "name" : "Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]",
+  "fullName" : "test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]",
+  "historyId" : "e38e5f8730873c6ac5a503cbf56ab5a8",
+  "time" : {
+    "start" : 1558982334619,
+    "stop" : 1558982335158,
+    "duration" : 539
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'status'",
+  "statusTrace" : "self = <test_add_user.Test_Add_User object at 0x00000000046F7198>\n\n    @allure.step(title=\"点击新建联系人\")\n    @pytest.fixture()\n    def  click_add_user_button(self):\n>       self.addUserPageObj.clickNewlianxirenButton()\n\nscripts\\test_add_user.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\add_user_page.py:11: in clickNewlianxirenButton\n    self.click_element(PageElements.newlianxirenbutton)\nbase\\baseaction.py:18: in click_element\n    element_o=self.find_element_o(loc)\nbase\\baseaction.py:12: in find_element_o\n    return WebDriverWait(self.driver, 10, 0.5).until(lambda x: x.find_element(*loc))\nc:\\python\\python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:71: in until\n    value = method(self._driver)\nbase\\baseaction.py:12: in <lambda>\n    return WebDriverWait(self.driver, 10, 0.5).until(lambda x: x.find_element(*loc))\nc:\\python\\python36\\lib\\site-packages\\appium\\webdriver\\webdriver.py:222: in find_element\n    'value': value})['value']\nc:\\python\\python36\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:233: in execute\n    self.error_handler.check_response(response)\nc:\\python\\python36\\lib\\site-packages\\appium\\webdriver\\errorhandler.py:24: in check_response\n    super(MobileErrorHandler, self).check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <appium.webdriver.errorhandler.MobileErrorHandler object at 0x0000000004627940>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"An element could not be located on the page u...\\node_modules\\\\\\\\appium\\\\\\\\node_modules\\\\\\\\babel-runtime\\\\\\\\regenerator\\\\\\\\runtime.js:136:37)\\\\n    at <anonymous>\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n    \n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    status = value.get('error', None)\n                    if status is None:\n>                       status = value[\"status\"]\nE                       KeyError: 'status'\n\nc:\\python\\python36\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:106: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Hasee-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12000-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testClass",
+    "value" : "test_add_user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]"
+  }, {
+    "name" : "package",
+    "value" : "test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d2a2d67e40cc1100.json",
+  "parameterValues" : [ ]
+}

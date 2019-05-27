@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_003--1 348-883-4010-1 348-883-4010]","822",""
+"passed","test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_002-x--x]","21182",""
+"failed","test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_001---]","36796",""
+"broken","test_add_user.Test_Add_User.test_input_lianxiren_info[test_user_004-xx-1 348-883-4010-xx]","539",""
